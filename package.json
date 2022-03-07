@@ -1,0 +1,22 @@
+{
+  "name": "github_orgs",
+  "version": "1.0.0",
+  "description": "Programmatically create and invite people to github organizations as owners, students and staff, and have those organizations be owned by/linked to the hack reactor org.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBandJaimie/github_orgs.git"
+  },
+  "author": "Jaimie Diemer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBandJaimie/github_orgs/issues"
+  },
+  "homepage": "https://github.com/PBandJaimie/github_orgs#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
