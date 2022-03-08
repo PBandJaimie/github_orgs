@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
         controllers.createOrgInvite */
     })
     .catch((error) => {
+      res.sendStatus(404);
       console.log('error getting invitee ids: ', error)
     })
 })
