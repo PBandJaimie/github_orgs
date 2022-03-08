@@ -4,7 +4,7 @@
   "description": "Programmatically create and invite people to github organizations as owners, students and staff, and have those organizations be owned by/linked to the hack reactor org.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/PBandJaimie/github_orgs#readme",
   "dependencies": {
-    "axios": "^0.26.0"
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
