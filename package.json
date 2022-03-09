@@ -4,7 +4,8 @@
   "description": "Programmatically create and invite people to github organizations as owners, students and staff, and have those organizations be owned by/linked to the hack reactor org.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js -w"
+    "start": "npx nodemon server/index.js -w server",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",

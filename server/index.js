@@ -4,6 +4,7 @@ const port = 3000
 const controllers = require('./controllers.js');
 const helpers = require ('./helpers');
 
+app.use(express.urlencoded({extended: true}));
 
 app.get('/', (req, res) => {
   //test with orgLogin = 'hackreactor' and teamSlug = 'a-staff-rpt'
