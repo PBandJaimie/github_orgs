@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Invitees from './components/Invitees.jsx';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      placeholder: []
+      inviteeIds: [1234, 1567, 1833]
     }
-    //bind here
   }
 
   render() {
     return (
-      <div id=“app”>
-        Hello World
+      <div id="app">
+        <Invitees inviteeIds={this.state.inviteeIds} />
       </div>
-    )
+    );
   }
 }
 

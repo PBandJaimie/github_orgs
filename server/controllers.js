@@ -1,6 +1,5 @@
 const axios = require('axios');
-const config = require('./config.js');
-const helpers = require ('./helpers');
+const config = require('./../config.js');
 
 
 /*new orgs with this naming convention cohort-project-groupX
