@@ -1,0 +1,19 @@
+h1, h3, h4 {
+  text-align: center;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#invitees {
+  text-align: center;
+}
+
+button {
+  margin-top: 1em;
+}

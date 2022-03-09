@@ -1,8 +1,9 @@
+import React from 'react';
+
 const Invitee = (props) => {
-  console.log('invitee props: ', props)
   return (
     <div id="invitee">
-      {props.listItem}
+      <strong>{props.name}</strong> <small>(id#{props.id})</small><br></br>
     </div>
   )
 }
